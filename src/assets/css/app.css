@@ -54,7 +54,20 @@ body{
   text-align: center;
   margin: 150px 90px;
 }
-
+@media screen and (max-width: 640px){
+  .message1{
+    display: block;
+  }
+  .message2{
+    display:block;
+  }
+  .mes-img{
+    width:100%;
+  }
+  .mes-text{
+    margin:10px 10px;
+  }
+}
 /*links*/
 .links{
   width:80%;
