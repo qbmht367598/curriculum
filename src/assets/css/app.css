@@ -3,11 +3,11 @@ body{
   margin:0px;
   font-family: 'Noto Sans JP', sans-serif;
 }
-
+/*top-wrapper*/
 .top-wrapper{
   background-image: url(../materials/mainImg.jpg);
   background-size: cover;
-  height:500px;
+  height:600px;
   width:90%;
   margin:auto;
   text-align: center;
@@ -20,11 +20,11 @@ body{
   }
 }
 
-.top-wrapper h1{
+.top-text1{
   padding-top:225px;
   font-family: 'Pacifico', cursive;
 }
-.top-wrapper p{
+.top-text2{
   font-family: 'Noto Serif JP', serif;
 }
 .top-message{
@@ -32,7 +32,7 @@ body{
   width:70%;
   margin-top: 70px;
 }
-.top-message h2{
+.top-mes{
   text-align: center;
 }
 /*message*/
@@ -79,10 +79,10 @@ body{
   padding:50px 20px 50px 20px;
   width: 35%;
  }
- .link img{
+ .link-img{
   max-width: 100%;
 }
-.link p{
+.link-text{
   text-align: left;
   font-size: 14px;
   padding-top: 10px;
@@ -115,7 +115,7 @@ body{
   width:50%;
   padding-left: 40px;
 }
-.concept-text p{
+.concept-mes{
   font-size: 14px;
   text-align: left;
 }
@@ -134,10 +134,11 @@ body{
     margin: auto;
     padding-top: 40px;
  }
- .concept-text p{
+ .concept-mes{
    font-size: 12px;
  }
 }
+/*info*/
 .info{
   display: flex;
   margin:150px 200px;
