@@ -5,7 +5,7 @@ body{
 }
 
 .top-wrapper{
-  background-image: url(../../../materials/mainImg.jpg);
+  background-image: url(../materials/mainImg.jpg);
   background-size: cover;
   height:500px;
   width:90%;
@@ -99,7 +99,7 @@ body{
  }
 /*concept*/
 .concept-wrapper{
-  background-image: url(../../../materials/consept-1.jpg);
+  background-image: url(../materials/consept-1.jpg);
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
