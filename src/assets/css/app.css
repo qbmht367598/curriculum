@@ -56,6 +56,9 @@ body{
   margin: 150px 90px;
 }
 @media screen and (max-width: 640px){
+  .message-wrapper{
+    margin-top:0px;
+  }
   .message1{
     display: block;
   }
@@ -66,7 +69,8 @@ body{
     width:100%;
   }
   .mes-text{
-    margin:10px 10px;
+    width:80%;
+    margin:auto;
   }
 }
 /*links*/
