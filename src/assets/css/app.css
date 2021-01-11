@@ -107,7 +107,8 @@ body{
 }
 .concepts{
   display: flex;
-  padding:50px 200px 0px 200px;
+  margin:0 auto;
+  padding:50px 200px 50px 200px;
 }
 .concept-text{
   color:white;
@@ -116,7 +117,7 @@ body{
   padding-left: 40px;
 }
 .concept-mes{
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
 }
 @media screen and (max-width: 640px){
@@ -139,41 +140,52 @@ body{
  }
 }
 /*info*/
-.info{
+.company-infomation{
   display: flex;
-  margin:150px 200px;
+  margin:200px 0px 200px 0px;
+}
+.info{
+  width:50%;
+}
+.table{
+  display: table;
+  width:100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 40px;
+}
+.table-heading{
+  display:table-cell;
+  text-align: right;
+}
+.table-text{
+  display:table-cell;
+  text-align: left;
 }
 .map-pic{
   width:50%;
-} 
-.map-pic img{
-  max-width:100%;
-}
-.info table{
-  font-size:14px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-table td{
- padding : 7px 20px;
 }
 @media screen and (max-width: 640px){
+  .company-infomation{
+    display: block;
+    margin:50px 0px;
+  }
   .info{
-   display: block;
-   margin:50px 0px;
-  } 
-  table{
-    margin: auto;
-    width: 90%;
+    width:100%;
   }
-  table td{
-    padding : 7px 20px;
-    width: 40px;
+  .table{
+    border-spacing: 20px;
   }
+ 
   .map-pic{
-    width: 100%;
-    margin-top: 50px;
+    width:90%;
+    margin:0 auto;
+    margin-top:50px;
   }
- }
+  .map{
+    max-width:100%;
+  }
+}
 
 /*footer*/
 footer{
